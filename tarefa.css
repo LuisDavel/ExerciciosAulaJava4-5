@@ -1,0 +1,52 @@
+div{
+    margin: 0 auto;
+    width: 500px;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
+}
+
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+/* ------------------------------------------------------------------- */
+/* Exercicio Peso Planeta */
+#calcular, #cancelar{
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    background-color: #e7e7e7;
+    transition-duration: 0.4s;
+    margin-left: 10px;
+}
+
+#calcular:hover, #cancelar:hover {
+    background-color: #535353;
+}
+
+#peso{
+    transition-duration: 0.4s;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------- */
+/* Exercicio Estados */
+#combobox, #comboboxPlanetas{
+    appearance: none; 
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee; 
+    background-position: 80px center; 
+    width: 110px;
+    height:30px;
+    border:1px solid #ddd;
+}
